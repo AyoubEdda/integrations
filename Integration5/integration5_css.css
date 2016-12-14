@@ -1,0 +1,229 @@
+body {
+font-family: lato;
+
+}
+.tous {
+
+
+}
+.container {
+  display: flex;
+flex-wrap: wrap;
+}
+.nav {
+width: 100%;
+  height: 60px;
+  order: 1;
+  background-color: blue;
+  display: flex;
+ color: #fff;
+  background-color: black;
+}
+.nav li {
+  display: inline-flex;
+ height: 100%;
+width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul {
+ height: 100%;
+ width: 50%;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+   justify-content: space-around;
+margin: 0;
+}
+.nav h2 {
+  width: 50%;
+  font-size: 19px;
+}
+.nav li:hover {
+  background-color: green;
+  height: 100%;
+
+}
+
+.menu {
+width: 17%;
+ min-height: 100%;
+  order: 2;
+  background-color: purple;
+}
+.lien {
+min-width: 20%;
+  color: white;
+
+}
+.lien p {
+  font-size: 12px;
+  text-align: center;
+}
+.lien ul {
+  margin-bottom: 27%;
+  padding: 0;
+}
+.lien li {
+ margin: 9% 0 -5% 0;
+  border-bottom: 1px solid white;
+  display: flex;
+ padding: 0 0 4% 11%;
+
+ font-size: 12px;
+}
+#balise {
+  border-top: 1px solid white;
+ padding-top: 5%;
+}
+
+.search {
+  width: 40%;
+        padding-left : 5%;
+        padding-top: 5%;
+         color:grey;
+
+}
+.search input {
+  background-color: grey;
+              border: 1px solid;
+}
+.bas_menu {
+
+
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.bas_menu h3 {
+  margin-top: 15vh;
+  font-size: 11px;
+  margin-right: 14%;
+}
+.bas_menu h6 {
+  margin: 2vh 0 2vh -20%;
+}
+.bas_menu h5 {
+  margin: 0 10vh 20vh 0;
+}
+.bas_menu li {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 9% -30% ;
+}
+.bas_menu ul {
+
+}
+.bas_menu p {
+  font-size: 12px;
+}
+.reseau {
+width: 70%;
+  height: 40%;
+}
+.gros_block {
+  order: 3;
+ width: 83%;
+  height: 82%;
+}
+.block1 {
+width: 100%;
+ height: 45vh;
+  display: flex;
+  background-color: red;
+}
+.i1  {
+ height: 70%;
+  width: 100%;
+}
+.i2{
+   height: 70%;
+  width: 100%;
+}
+.i3 {
+  height: 70%;
+  width: 100%;
+}
+
+.image1 {
+width: 34%
+}
+.paragraphe1 {
+
+}
+.image2 {
+width: 33%
+}
+.paragraphe2{
+
+}
+.image3 {
+width: 33%
+}
+.paragraphe3{
+
+}
+.block2{
+  display: flex;
+justify-content: space-between;
+min-height: 60%;
+ width: 100%;
+
+  background-color: orange;
+}
+.colone1 {
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 10vh 0 0 10%;
+}
+
+.text{
+
+}
+.colone1 h1{
+  font-size: 24px;
+
+}
+.p1c1 {
+
+}
+#p2c1{
+
+}
+.colone2 {
+width: 32%;
+float: left;
+  display: flex;
+  flex-direction: column;
+
+}
+.colone2 p {
+  font-size: 14px;
+}
+.mini {
+
+}
+.p1{
+
+}
+.p2{
+
+}
+.p3{
+
+}
+.video {
+
+}
+.ahah {
+  height: 30%;
+
+}
+.footer{
+order: 4;
+  width: 100%;
+  background-color: #EEE;
+ height: 10%;
+}

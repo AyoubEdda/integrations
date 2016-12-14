@@ -1,0 +1,100 @@
+body {
+background-image: url("/home/ayoub/Documents/Intégration1/images/bg.jpg");
+ background-attachment:fixed;
+  display:flex;
+flex-direction: column;
+ align-items: center;
+
+
+
+}
+.container {
+display:flex;
+flex-direction: column;
+ align-items: center;
+background-color: #fff;
+width: 1020px;
+
+
+}
+
+header {
+  width: 1020px;
+  height: 60px;
+  color: #7a7a7a;
+  background-color: rgb(26, 15, 2);
+  color: #fff;
+
+
+}
+header li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+	display:inline-block;
+	margin: 0 30px;
+}
+nav {
+  width: 1020px ;
+  height: 320px;
+  color: #cfa205;
+  background-color: rgb(26, 15, 2);
+  text-align: center;
+  font-size: 18px;
+
+}
+nav h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 133px;
+}
+nav p {
+ padding-top: 8%
+}
+main {
+  width: 1020px;
+  height: 60px;
+  background-color:  #e8e8e8;
+}
+aside {
+  width: 900px;
+  color: #7a7a7a;
+  background-color: #fff;
+  text-align: center;
+  height: 90px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+ 
+  
+}
+hr {
+  color: #e8e8e8;
+  margin-top: 48px;
+}
+footer {
+  width: 900px;
+  height: 675px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  color: #7a7a7a;
+margin-top: 20px;
+}
+.image1 , .image2 , .image3 {
+  width: 260px;
+  height: 480px;
+
+
+}
+footer p {
+  width: 260px;
+  height: 480px;
+  line-height: 30px;
+}
+.blanc {
+ background-color: pink;
+  width: 1020px;
+  height: 120px;
+ 
+}

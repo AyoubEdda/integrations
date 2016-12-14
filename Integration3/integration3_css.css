@@ -1,0 +1,101 @@
+body{
+margin: 0;
+padding: 0;
+
+
+}
+.container, header, nav, main, aside, footer {
+display: inline-block;
+vertical-align: top;
+box-sizing: border-box;
+
+}
+.container {
+  text-align: center;
+font-family: "News Cycle";
+
+}
+
+/*block 140px
+825px B1
+615b2
+600b3*/
+  header {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(240, 229, 239);
+
+  }
+header ul {
+margin: auto;
+  margin-left: 220px;
+
+}
+a:link
+{
+ text-decoration:none;
+  color: black;
+}
+header li {
+  display: inline-block;
+  margin: 0 10px;
+ padding-left: 30px;
+}
+header h1 {
+ margin-top: 30%;
+margin-left: 100px;
+}
+header a:hover {
+  color: rgba(61, 189, 86, 0.86);
+}
+  nav {
+    height: 825px;
+    background-image: url("images/banner.png");
+    background-color: rgba(61, 189, 86, 0.86);
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+font-size: 20px;
+  }
+  main {
+    height: 615px;
+    font-size: 20px;
+  }
+  aside {
+    height: 600px;
+
+
+    color: #fff;
+ font-size: 20px;
+  }
+  .fond {
+    background-color: rgba(61, 189, 86, 0.86);
+    
+  }
+footer {
+   font-size: 20px;
+}
+.image1 , .image2 , .image3 {
+  border-radius: 100px;
+  margin: 0 20px;
+  margin-top: 70px;
+}
+.button1 , .button2 , .button3 {
+height: 90px;
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 16px;
+   border: none;
+   color: #fff;
+}
+.button1 , .button3 {
+  background-color: black;
+
+}
+.button2 {
+  background-color: rgba(61, 189, 86, 0.86);
+}
